@@ -1,3 +1,4 @@
+"""
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 
 
@@ -15,4 +16,4 @@ def private_panel(_):
             InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url=config.SUPPORT_GROUP),
         ],
     ]
-    return buttons
+    return buttons"""
