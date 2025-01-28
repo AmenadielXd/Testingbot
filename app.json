@@ -10,7 +10,7 @@
          "Fallen"
       ],   
    "repository": "https://github.com/AnonymousX1025/FallenRobot",
-   "stack": "heroku-22",
+   "stack": "heroku-24",
    "addons": [
       {
          "options": {
@@ -23,12 +23,12 @@
       "API_ID": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "28216126"
       },
       "API_HASH": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "794cfdfb56e0d0ad8e20d98c2cc42dfa"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -37,7 +37,7 @@
       "MESSAGE_DUMP": {
          "description": "Channel where bot will send logs and updates. ex: '-123456'",
          "required": true,
-         "value": ""
+         "value": "-1002357943084"
       },
       "PREFIX_HANDLER": {
          "description": "Prefix(es) for bot commands, separated by space (e.g., '/ ! $').",
@@ -47,32 +47,27 @@
       "DB_NAME": {
          "description": "Your MongoDB name.",
          "required": true,
-         "value": "AlexDB"
+         "value": "NovaDB"
       },
       "DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://AbhiModszYT:AbhiModszYT@abhimodszyt.pom3ops.mongodb.net/?retryWrites=true&w=majority "
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1356469075"
+         "value": "7202110938"
       },
       "SUPPORT_GROUP": {
          "description": "Channel where bot updates will be posted.",
          "required": false,
-         "value": ""
+         "value": "eva_support01"
       },
       "SUPPORT_CHANNEL": {
          "description": "Channel where bot updates will be posted.",
          "required": false,
-         "value": ""
-      },
-      "TIME_API_KEY": {
-         "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
-         "required": true,
-         "value": ""
+         "value": "the_losthope"
       },
       "DEV_USERS": {
          "description": "Space-separated list of user IDs for bot developers.",
@@ -92,7 +87,7 @@
       "GENIUS_API": {
          "description": "Your Genius API token to fetch song lyrics.",
          "required": false,
-         "value": ""
+         "value": "3br4BPk91aNFVhsSwIzr4oN8AjFQMSpV2G4PKawulbg-Zv2t-rwwTUCsEbznwcMn"
       },
       "BDB_URI": {
          "description": "Additional MongoDB URI to store extra information.",
@@ -102,12 +97,12 @@
       "TIME_ZONE": {
          "description": "Your time zone (e.g., 'Asia/Kolkata').",
          "required": false,
-         "value": ""
+         "value": "Asia/Kolkata"
       },
       "RMBG_API": {
          "description": "Your Remove.bg API key to remove image backgrounds.",
          "required": false,
-         "value": ""
+         "value": "nBnpnzaPz8822fa9KUVY75AG"
       },
       "WORKERS": {
          "description": "Number of workers to run the bot.",
@@ -117,7 +112,7 @@
       "BOT_TOKEN": {
          "description": "Get bot token from @BotFather on TG",
          "required": true,
-         "value": ""
+         "value": "8196665084:AAE8Ml6xQfz208aISLxhWXLSj59UKfxIKY0"
       }
    }
 }
