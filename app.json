@@ -1,0 +1,123 @@
+{
+      "name": "Nova UI",
+      "description": "Telegram Group Management Bot.",
+      "logo": "https://te.legra.ph/file/72e135da30a1a349f2844.jpg",
+      "keywords": [
+         "telegram",
+         "modular",
+         "group",
+         "manager",
+         "Fallen"
+      ],   
+   "repository": "https://github.com/AmenadielXd/Testingbot",
+   "stack": "heroku-22",
+   "addons": [
+      {
+         "options": {
+            "version": "14"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "API_ID": {
+         "description": "Get this value from my.telegram.org/apps.",
+         "required": true,
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "Get this value from my.telegram.org/apps.",
+         "required": true,
+         "value": ""
+      },
+      "DEL_CMDS": {
+         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+         "value": "True"
+      },
+      "MESSAGE_DUMP": {
+         "description": "Channel where bot will send logs and updates. ex: '-123456'",
+         "required": true,
+         "value": ""
+      },
+      "PREFIX_HANDLER": {
+         "description": "Prefix(es) for bot commands, separated by space (e.g., '/ ! $').",
+         "required": false,
+         "value": "/ ! $"
+      },
+      "DB_NAME": {
+         "description": "Your MongoDB name.",
+         "required": true,
+         "value": "AlexDB"
+      },
+      "DB_URI": {
+         "description": "Required for database connections.",
+         "required": true,
+         "value": ""
+      },
+      "OWNER_ID": {
+         "description": "Your user ID as an integer.",
+         "required": true,
+         "value": "1356469075"
+      },
+      "SUPPORT_GROUP": {
+         "description": "Channel where bot updates will be posted.",
+         "required": false,
+         "value": ""
+      },
+      "SUPPORT_CHANNEL": {
+         "description": "Channel where bot updates will be posted.",
+         "required": false,
+         "value": ""
+      },
+      "TIME_API_KEY": {
+         "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
+         "required": true,
+         "value": ""
+      },
+      "DEV_USERS": {
+         "description": "Space-separated list of user IDs for bot developers.",
+         "required": false,
+         "value": ""
+      },
+      "SUDO_USERS": {
+         "description": "Space-separated list of user IDs to assign as sudo users.",
+         "required": false,
+         "value": ""
+      },
+      "WHITELIST_USERS": {
+         "description": "Space-separated list of user IDs who are whitelisted.",
+         "required": false,
+         "value": ""
+      },
+      "GENIUS_API": {
+         "description": "Your Genius API token to fetch song lyrics.",.",
+         "required": false,
+         "value": ""
+      },
+      "BDB_URI": {
+         "description": "Additional MongoDB URI to store extra information.",
+         "required": false,
+         "value": ""
+      },
+      "TIME_ZONE": {
+         "description": "Your time zone (e.g., 'Asia/Kolkata').",
+         "required": false,
+         "value": ""
+      },
+      "RMBG_API": {
+         "description": "Your Remove.bg API key to remove image backgrounds.",
+         "required": false,
+         "value": ""
+      },
+      "WORKERS": {
+         "description": "Number of workers to run the bot.",
+         "required": false,
+         "value": "8"
+      },
+      "BOT_TOKEN": {
+         "description": "Get bot token from @BotFather on TG",
+         "required": true,
+         "value": ""
+      }
+   }
+}
