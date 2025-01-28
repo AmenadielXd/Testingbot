@@ -90,7 +90,7 @@
          "value": ""
       },
       "GENIUS_API": {
-         "description": "Your Genius API token to fetch song lyrics.",.",
+         "description": "Your Genius API token to fetch song lyrics.",
          "required": false,
          "value": ""
       },
